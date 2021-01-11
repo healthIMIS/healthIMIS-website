@@ -1,0 +1,30 @@
+<header data-block-type="headers" data-id="1">
+    <div class="container">
+        <nav class="navbar navbar-expand-md">
+            <div class="col">
+                <a class="navbar-brand" href="/">
+                    <img src="https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/imgs//logo.png" alt="image"
+                         height="30">
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3"
+                    aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav3">
+                <ul class="navbar-nav ml-auto">
+                    {% for item in site.data.navigation %}
+                    <li class="nav-item">
+                        <a class="nav-link{% if page.url == item.link %} active{% endif %}" href="{{ item.link }}">{{
+                            item.name }}{% if page.url == item.link %} <span class="sr-only">(current)</span>{% endif %}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <a class="btn btn-outline-primary ml-md-3" href="https://www.froala.com">Button</a>
+            </div>
+        </nav>
+    </div>
+</header>
