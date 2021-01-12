@@ -1,10 +1,4 @@
-- name: Home
-  link: /
+- name: Portfolio
+  link: /about/
 - name: Team
   link: /team/
-#- name: About
-#  link: /about/
-#- name: Blog
-#  link: /blog/
-#- name: Staff
-#  link: /staff/
