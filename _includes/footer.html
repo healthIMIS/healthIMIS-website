@@ -1,34 +1,53 @@
 <footer class="fdb-block footer-small" data-block-type="footers" data-id="10">
     <div class="container">
-        <div class="row align-items-center text-center">
-            <div class="col-12 col-lg-4 text-lg-left">
-                <p>IMIS Infektionsmanagement</p>
-                <p>Telefon<br>E-Mail</p>
-                <p>© 2021 IMIS</p>
+        <div class="row align-items-top text-center pt-3">
+            <div class="col-md-4 col-sm-12 text-lg-left">
+                <div class="row pb-2">
+                    <div class="col">
+                        <p>IMIS Infektionsmanagement</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        Telefon: <a href="tel:0123/456789">0123/456789</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        Email: <a href="mailto:test@test.de">test@test.de</a>
+                    </div>
+                </div>
+                <div class="row pt-2">
+                    <div class="col">
+                        © 2021 IMIS
+                    </div>
+                </div>
             </div>
 
-            <div class="col-12 col-lg-4 text-lg-left">
-                <p>Lorem ipsum</p>
-                <ul class="justify-content-lg-end justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href={{ "/kontakt/" | relative_url }}>Kontakt</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href={{ "/impressum/" | relative_url }}>Impressum</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href={{ "/datenschutz/" | relative_url }}>Datenschutz</a>
-                    </li>
-                </ul>
+            <div class="col-md-4 col-sm-12 text-lg-left pt-3">
+                <div class="row">
+                    <div class="col">
+                        <p>Lorem Ipsum</p>
+                        <ul class="justify-content-lg-start">
+                            {% for item in site.data.footer.links %}
+                            <li class="nav-item">{{ item.name }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-12 col-lg-4 text-lg-left">
-                <p>Portfolio</p>
-                <ul class="justify-content-lg-end justify-content-center">
-                    <li class="nav-item">Lorem ipsum</li>
-                    <li class="nav-item">Lorem ipsum</li>
-                    <li class="nav-item">Lorem ipsum</li>
-                </ul>
+            <div class="col-md-4 col-sm-12 text-lg-left pt-3">
+                <div class="row">
+                    <div class="col">
+                        <p>Portfolio</p>
+                        <ul class="justify-content-lg-end justify-content-center">
+                            {% for item in site.data.footer.portfolio %}
+                            <li class="nav-item">{{ item.name }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
