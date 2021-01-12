@@ -30,7 +30,7 @@
                         <p>Lorem Ipsum</p>
                         <ul class="justify-content-lg-start">
                             {% for item in site.data.footer.links %}
-                            <li class="nav-item">{{ item.name }}</li>
+                            <li class="nav-item"><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -43,7 +43,7 @@
                         <p>Portfolio</p>
                         <ul class="justify-content-lg-end justify-content-center">
                             {% for item in site.data.footer.portfolio %}
-                            <li class="nav-item">{{ item.name }}</li>
+                            <li class="nav-item"><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
