@@ -2,7 +2,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-md">
             <div class="col">
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="{{ '/' | relative_url }}">
                     <img src="https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/imgs//logo.png" alt="image"
                          height="30">
                 </a>
@@ -23,7 +23,6 @@
                     </li>
                     {% endfor %}
                 </ul>
-                <a class="btn btn-outline-primary ml-md-3" href={{ "/kontakt/" | relative_url }}>Kontakt</a>
             </div>
         </nav>
     </div>

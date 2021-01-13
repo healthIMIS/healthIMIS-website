@@ -1,0 +1,17 @@
+- name: Maria Musterfrau
+  img_src: "https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/imgs//people/3.jpg"
+  position: Geschäftführerin
+  since: 2013
+  bio: der Kaffee, die Konsequenz, das Kapital
+
+- name: Martin Mustermann
+  img_src: "https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/imgs//people/1.jpg"
+  position: Entwickler
+  since: 2016
+  bio: mag Katzen, fährt Ski und lebt in einem Hausboot
+
+- name: Maxi Mustermensch
+  img_src: "https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/imgs//people/5.jpg"
+  position: Designer*in
+  since: 2017
+  bio: Gesundheitswesen - Metal Core - Adorno-Lesekreis
