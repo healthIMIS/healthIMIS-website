@@ -1,9 +1,33 @@
 /* Custom Styles */
 
-.current {
-  color: green;
+
+/* References Carousel */
+
+.col-md-4{
+  display: inline-block;
+  margin-left:-4px;
+}
+.col-md-4 img{
+  width:100%;
+  height:auto;
 }
 
+body .carousel-indicators li{
+  background-color:lightgrey;
+}
+
+.carousel-indicators .active{
+  background-color:green;
+}
+
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon{
+  background-color:green;
+}
+body .no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
 
 /* Froala Styles */
 

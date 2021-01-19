@@ -1,0 +1,15 @@
+groups:
+  - title: Group 1
+    items:
+      - name: Björn Steiger Stiftung
+        img_src: "assets/images/logo_bss.png"
+      - name: Solution Enabler
+        img_src: "assets/images/logo_solution_enabler.png"
+      - name: HZI
+        img_src: "assets/images/logo_hzi_de.svg"
+  - title: Group 2
+    items:
+      - name: Project Together
+        img_src: "assets/images/logo_project_together.png"
+      - name: Tech For Germany
+        img_src: "assets/images/logo_tech4germany.png"
