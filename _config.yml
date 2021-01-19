@@ -3,7 +3,7 @@ include: ['_pages']
 # in the frontmatter defaults sections you can specify e.g. the default layout for your pages
 # https://jekyllrb.com/docs/configuration/front-matter-defaults/#glob-patterns-in-front-matter-defaults
 
-baseurl: "/imis-jekyll"
+baseurl: "/healthIMIS-website"
 
 
 defaults:
