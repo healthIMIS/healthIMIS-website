@@ -1,0 +1,46 @@
+<section class="fdb-block pt-5">
+    <div class="container">
+        <h2 align="center">Häufig gestellte Fragen</h2>
+        <div class="row justify-items-center pt-2">
+            <div class="col-sm-1 col-md-2"></div>
+            <div class="col-sm-9 col-md-8">
+                <div class="accordion" id="accordionExample">
+                    {% for question in site.data.faq %}
+                    <div class="row py-3">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header px-0 py-0" id="headingOne">
+                                    <button class="btn btn-block text-left w-100 h-100" type="button"
+                                            data-toggle="collapse"
+                                            data-target="#collapse{{ forloop.index }}" aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
+                                        <div class="row">
+                                            <div class="col-10 my-auto text-wrap">
+                                                <b class="lead">{{ question.question }}</b>
+                                            </div>
+                                            <div class="col-2">
+                                                <img src="assets/images/favicon-256x256.png"
+                                                     height="40rem"
+                                                     align="right"/>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+
+                                <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}"
+                                     data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        {{ question.answer }}
+                                    </div>
+                                </div>
+
+                                <span class="border-bottom"></span>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-sm-1 col-md-2"></div>
+        </div>
+    </div>
+</section>

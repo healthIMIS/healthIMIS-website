@@ -1,3 +1,5 @@
+- name: Start
+  link: /
 - name: Portfolio
   link: /portfolio/
 - name: Team
