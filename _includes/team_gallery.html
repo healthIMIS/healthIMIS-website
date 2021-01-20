@@ -1,12 +1,12 @@
-<section class="fdb-block team-5" data-block-type="teams" data-id="11">
+<section class="fdb-block pt-2">
     <div class="container">
         {% for member in site.data.team %}
         <div class="row text-left justify-content-center py-4">
-            <div class="col-sm-4 m-sm-auto">
+            <div class="col-sm-3 m-sm-auto">
                 <img alt="image" class="img-fluid rounded-circle"
                      src="{{ member.img_src }}">
             </div>
-            <div class="col-sm-8 m-sm-auto px-4 py-4">
+            <div class="col-sm-9 m-sm-auto px-4 py-4">
                 <div class="row">
                     <div class="col">
                         <h2>{{ member.name }}</h2>

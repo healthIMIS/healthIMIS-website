@@ -1,0 +1,31 @@
+<section class="fdb-block fp-active pt-5">
+    <div class="container">
+        <div class="row text-center justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <h2>Portfolio</h2>
+            </div>
+        </div>
+
+        <div class="row mt-4 justify-content-center">
+            {% for card in site.data.index.portfolio_cards %}
+            <div class="col-md-8 col-lg-4 pb-4">
+                <div class="row no-gutters align-items-center">
+                    <div class="col">
+                        <img alt="image" class="img-fluid rounded"
+                             src="{{ card.img_src }}">
+                    </div>
+                </div>
+                <div class="fdb-box pt-3 pb-2">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="lead"><b>{{ card.title }}</b></h3>
+                            {{ card.text | truncatewords: 40, " [...]" }}
+                            <p class="pt-3">{{ card.date }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
