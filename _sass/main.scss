@@ -1,7 +1,78 @@
-/* Custom Styles */
+/* Farbschema */
+
+:root {
+    --color1: #1ed87e;
+    --color2: white;
+    --bg-color1: white;
+    --bg-color2: #f7f9fb;
+}
 
 
-/* References Carousel */
+/* CUSTOM STYLES */
+
+/* icons */
+
+.bi {
+    color: var(--color1);
+    font-size: 1.5rem;
+}
+
+/* navbar */
+
+.nav-item .btn-outline-success {
+
+  border-color: var(--color1);
+  background-color: var(--color2);
+  color: var(--color1);
+
+}
+
+.nav-item .btn-outline-success:hover {
+
+  border-color: var(--color1);
+  background-color: var(--color1);
+  color: var(--color2);
+
+}
+
+/* eyecatcher */
+
+body .eyecatcher {
+  color: var(--color2);
+  background-color: var(--color1);
+}
+
+.design-line {
+  margin: 0px;
+  width: 10%;
+  border-width: 5px;
+  border-top-color: var(--color2);
+}
+
+/* contact-bar */
+
+.contact-bar {
+  color: var(--color2);
+  background-color: var(--color1);
+}
+
+.contact-bar .btn-outline-success {
+
+  border-color: var(--color2);
+  background-color: var(--color1);
+  color: var(--color2);
+
+}
+
+.contact-bar .btn-outline-success:hover {
+
+  border-color: var(--color2);
+  background-color: var(--color2);
+  color: var(--color1);
+
+}
+
+/* references carousel */
 
 .col-md-4{
   display: inline-block;
@@ -17,19 +88,32 @@ body .carousel-indicators li{
 }
 
 .carousel-indicators .active{
-  background-color:green;
+  background-color: var(--color1);
 }
 
 body .carousel-control-prev-icon,
 body .carousel-control-next-icon{
-  background-color:green;
+  background-color: var(--color1);
 }
 body .no-padding{
   padding-left: 0;
   padding-right: 0;
 }
 
-/* Froala Styles */
+/* faq */
+
+.card {
+  border-color: var(--color1);
+}
+
+.card-header {
+  background-color: var(--color2);
+  border-bottom-color: var(--color1);
+}
+
+
+/* FROALA STYLES */
+
 body, html {
   margin: 0;
   height: 100%;
@@ -40,7 +124,7 @@ body.no-block {
   display: flex;
 }
 body {
-  background: #DEDEDE;
+  background: var(--bg-color);
 }
 .fp-no-block {
   align-items: center;
@@ -132,6 +216,7 @@ body {
   margin-top: 5px;
 }
 .fdb-block {
+  background-color: var(--bg-color2);
   box-shadow: 0;
   margin-bottom: -5px;
   transition: margin 0.25s linear 0.25s;

@@ -1,8 +1,12 @@
 - name: Start
   link: /
+  type: link
 - name: Portfolio
   link: /portfolio/
+  type: link
 - name: Team
   link: /team/
+  type: link
 - name: Kontakt
   link: /kontakt/
+  button: link

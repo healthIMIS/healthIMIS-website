@@ -4,30 +4,28 @@
         <div class="row justify-items-center pt-2">
             <div class="col-sm-1 col-md-2"></div>
             <div class="col-sm-9 col-md-8">
-                <div class="accordion" id="accordionExample">
+                <div class="accordion" id="faqaccordion">
                     {% for question in site.data.faq %}
                     <div class="row py-3">
                         <div class="col">
                             <div class="card">
-                                <div class="card-header px-0 py-0" id="headingOne">
-                                    <button class="btn btn-block text-left w-100 h-100" type="button"
-                                            data-toggle="collapse"
-                                            data-target="#collapse{{ forloop.index }}" aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
-                                        <div class="row">
-                                            <div class="col-10 my-auto text-wrap">
-                                                <b class="lead">{{ question.question }}</b>
-                                            </div>
-                                            <div class="col-2">
-                                                <img src="assets/images/favicon-256x256.png"
-                                                     height="40rem"
-                                                     align="right"/>
-                                            </div>
+                                <button id="heading{{ forloop.index }}" class="card-header collapsed card-link"
+                                        data-toggle="collapse" data-target="#collapse{{ forloop.index }}"
+                                        aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+                                    <div class="row">
+                                        <div class="col">
+                                            <b class="lead">{{ question.question }}</b>
                                         </div>
-                                    </button>
-                                </div>
+                                        <div class="col-1 text-right mx-3 mx-lg-1">
+                                            <i id="icon{{ forloop.index }}" class="bi bi-plus-circle-fill"></i>
+                                        </div>
+                                    </div>
 
-                                <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}"
-                                     data-parent="#accordionExample">
+                                </button>
+
+                                <div id="collapse{{ forloop.index }}" class="collapse"
+                                     aria-labelledby="heading{{ forloop.index }}"
+                                     data-parent="#faqaccordion">
                                     <div class="card-body">
                                         {{ question.answer }}
                                     </div>
@@ -43,4 +41,23 @@
             <div class="col-sm-1 col-md-2"></div>
         </div>
     </div>
+    <script>
+        function checkIcons() {
+            $.each($(document).find('i'), function(){
+                if($( this ).closest(".card-header").attr('aria-expanded') === 'true'){
+								$(this).removeClass('bi-plus-circle-fill');
+								$(this).addClass('bi-dash-circle-fill');
+                }else{
+								$(this).removeClass('bi-dash-circle-fill');
+								$(this).addClass('bi-plus-circle-fill');
+                };
+            });
+        }
+
+        $(".collapse").on('shown.bs.collapse', checkIcons);
+        $(".collapse").on('hidden.bs.collapse', checkIcons);
+        $(".collapse").on('show.bs.collapse', checkIcons);
+        $(".collapse").on('hide.bs.collapse', checkIcons);
+
+    </script>
 </section>
