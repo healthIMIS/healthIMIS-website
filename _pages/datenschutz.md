@@ -21,6 +21,9 @@ Tüleck 1
 Tel. 0123/456789   
 E-Mail [test@test.de](mailto:test@test.de)
 
+Wir haben einen Datenschutzbeauftragten benannt; Sie erreichen diesen unter 
+[datenschutz@test.de](mailto:datenschutz@test.de)
+
 ## Verarbeitungstätigkeiten
 ### Aufruf von Webseiten
 Bei der bloß informatorischen Nutzung unserer Webseiten, d.h. auch wenn Sie uns nicht aktiv weitere Informationen 
