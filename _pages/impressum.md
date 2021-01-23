@@ -4,7 +4,7 @@ permalink: "/impressum/"
 ---
 # Impressum
 
-### Anschrift
+## Anschrift
 IMIS Infektionsfallübermittlung GbR   
 Tüleck 1   
 48336 Sassenberg
@@ -19,7 +19,7 @@ Geschäftsführung: TBD
 Registergericht: TBD Registernummer: TBD USt-IdNr.: TBD
 
 
-### Support
+## Support
 Falls Sie Fragen zu unseren Dienstleistungen haben, stehen wir Ihnen gerne per Email unter support@test.de zur 
 Verfügung.   
 Datenschutzhinweis: Bei Fragen im Zusammenhang mit der Erhebung, Verarbeitung oder Nutzung personenbezogener Daten 
