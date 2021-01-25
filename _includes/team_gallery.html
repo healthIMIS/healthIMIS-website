@@ -1,9 +1,9 @@
-<section class="fdb-block pt-2">
-    <div class="container">
+<div class="row py-4">
+    <div class="col">
         {% for member in site.data.team %}
         <div class="row text-left justify-content-center py-4">
-            <div class="col-sm-3 m-sm-auto">
-                <img alt="image" class="img-fluid rounded-circle"
+            <div class="col-sm-3 m-sm-auto text-center">
+                <img alt="image" class="img-fluid rounded-circle w-75"
                      src="{{ member.img_src }}">
             </div>
             <div class="col-sm-9 m-sm-auto px-4 py-4">
@@ -31,4 +31,4 @@
         </div>
         {% endfor %}
     </div>
-</section>
+</div>

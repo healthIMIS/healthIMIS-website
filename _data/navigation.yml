@@ -1,12 +1,17 @@
-- name: Start
-  link: /
-  type: link
-- name: Portfolio
-  link: /portfolio/
-  type: link
-- name: Team
-  link: /team/
-  type: link
-- name: Kontakt
-  link: /kontakt/
-  button: link
+logo:
+  img_src: '/assets/images/logo_imis.png'
+  location: '/'
+
+sitemap:
+  - name: Start
+    link: /
+    type: link
+  - name: Portfolio
+    link: /portfolio/
+    type: link
+  - name: Team
+    link: /team/
+    type: link
+  - name: Kontakt
+    link: /kontakt/
+    type: button

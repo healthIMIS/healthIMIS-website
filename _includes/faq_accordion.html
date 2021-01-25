@@ -1,18 +1,18 @@
-<section class="fdb-block pt-5">
+<section class="fdb-block pt-5 faq">
     <div class="container">
         <h2 align="center">Häufig gestellte Fragen</h2>
         <div class="row justify-items-center pt-2">
             <div class="col-sm-1 col-md-2"></div>
             <div class="col-sm-9 col-md-8">
                 <div class="accordion" id="faqaccordion">
-                    {% for question in site.data.faq %}
+                    {% for question in site.data.index.faq %}
                     <div class="row py-3">
                         <div class="col">
                             <div class="card">
-                                <button id="heading{{ forloop.index }}" class="card-header collapsed card-link"
+                                <button id="heading{{ forloop.index }}" class="card-header collapsed card-link btn shadow-none text-left"
                                         data-toggle="collapse" data-target="#collapse{{ forloop.index }}"
                                         aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
-                                    <div class="row">
+                                    <div class="row text-wrap">
                                         <div class="col">
                                             <b class="lead">{{ question.question }}</b>
                                         </div>

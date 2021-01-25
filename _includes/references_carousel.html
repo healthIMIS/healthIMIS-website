@@ -7,8 +7,8 @@
     <div class="row pb-4">
         <div class="col">
             <div class="container carousel-inner no-padding">
-                {% for group in site.data.references.groups %}
-                <div class="carousel-item{% if group == site.data.references.groups.first %} active{% endif %}">
+                {% for group in site.data.index.references %}
+                <div class="carousel-item{% if group == site.data.index.references.first %} active{% endif %}">
                     {% if group.items.size <> 3 %}
                         {% assign help_col_width = 4 | divided_by: group.items.size %}
                     {% else %}
@@ -32,9 +32,9 @@
     <div class="row pt-4 pb-3">
         <div class="col">
             <ul class="carousel-indicators">
-                {% for group in site.data.references.groups %}
+                {% for group in site.data.index.references %}
                 <li data-target="#references-carousel" data-slide-to="{{ forloop.index0 }}"
-                    class="{% if group == site.data.references.groups.first %} active{% endif %}"></li>
+                    class="{% if group == site.data.index.references.first %} active{% endif %}"></li>
                 {% endfor %}
             </ul>
         </div>

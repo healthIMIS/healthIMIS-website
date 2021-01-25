@@ -1,10 +1,9 @@
-<header data-block-type="headers" data-id="1">
-    <div class="container">
-        <nav class="navbar navbar-expand-md pl-0">
-            <div class="col pl-0">
-                <a class="navbar-brand" href="{{ '/' | relative_url }}">
-                    <img src="{{ '/assets/images/logo_imis.png' | relative_url }}" alt="image"
-                         height="60">
+<header class="navigation" data-block-type="headers" data-id="1">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md py-3">
+            <div class="col">
+                <a class="navbar-brand" href="{{ site.data.navigation.logo.location | relative_url }}">
+                    <img class="w-25" src="{{ site.data.navigation.logo.img_src | relative_url }}" alt="image">
                 </a>
             </div>
 
@@ -15,18 +14,22 @@
 
             <div class="collapse navbar-collapse" id="navbarNav3">
                 <ul class="navbar-nav ml-auto text-right">
-                    {% for item in site.data.navigation %}
-                    {% if item.type == 'link' %}
-                    <li class="nav-item my-auto">
-                        <a class="nav-link{% if page.url == item.link %} active{% endif %} lead"
-                           href="{{ item.link | relative_url }}">{{
-                            item.name }}{% if page.url == item.link %} <span class="sr-only">(current)</span>{% endif %}</a>
-                    </li>
-                    {% else if item.type == 'button' %}
-                    <li class="nav-item my-auto">
-                        <a class="btn btn-outline-success ml-md-3" href="{{ item.link | relative_url }}">{{ item.name }}</a>
-                    </li>
-                    {% endif %}
+                    {% for item in site.data.navigation.sitemap %}
+                        {% if item.type == 'link' %}
+                        <li class="nav-item my-auto">
+                            <a class="nav-link{% if page.url == item.link %} active{% endif %} lead"
+                               href="{{ item.link | relative_url }}">
+                                {{ item.name }}
+                                {% if page.url == item.link %} <span class="sr-only">(current)</span>{% endif %}
+                            </a>
+                        </li>
+                        {% else if item.type == 'button' %}
+                        <li class="nav-item my-auto">
+                            <a class="btn btn-outline-success ml-md-3" href="{{ item.link | relative_url }}">
+                                {{ item.name }}
+                            </a>
+                        </li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </div>

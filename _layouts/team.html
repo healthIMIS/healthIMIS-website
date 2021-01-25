@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<div class="container py-5">
+    <div class="row pb-4">
+        <div class="col">
+            <h1 class="text-center">{{ page.title}}</h1>
+        </div>
+    </div>
+    <div class="row pb-4">
+        <div class="col ml-md-auto mt-4 mt-md-0 text-center">
+            <img alt="image" class="img-fluid w-75"
+                 src="{{ page.img_src | relative_url }}">
+        </div>
+    </div>
+    <div class="row py-4">
+        <div class="col">
+            <p class="lead">{{ page.content }}</p>
+        </div>
+    </div>
+    {% include team_gallery.html %}
+</div>
