@@ -1,6 +1,5 @@
 ---
 title: Kontakt
 permalink: "/kontakt/"
+layout: kontakt
 ---
-
-Hier kommt die Kontaktseite hin.
