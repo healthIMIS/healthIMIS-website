@@ -1,0 +1,35 @@
+<div class="row pb-4 mx-xl-5">
+    {% for person in site.data.kontakt %}
+    <div class="col-md-6
+    {% if forloop.index0 == 0 %}pr-md-5 pr-lg-2{% else if forloop.index0 == 1 %}pl-md-5 pl-lg-2{% endif %}">
+        <div class="row text-left justify-content-center pb-4">
+            <div class="col-md-12 col-lg-5 m-sm-4 px-sm-4 m-md-auto text-center">
+                <img alt="image" class="img-fluid rounded-circle w-100 h-100"
+                     src="{{ person.img_src | relative_url }}">
+            </div>
+            <div class="col-md-12 col-lg-7 m-sm-auto px-4 py-4 text-lg-left text-center">
+                <div class="row">
+                    <div class="col">
+                        <h2>{{ person.name }}</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h3>{{ person.position }}</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        Telefon: <a href="tel:{{ person.tel }}">{{ person.tel }}</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
