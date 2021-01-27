@@ -3,16 +3,19 @@ references:
     items:
       - name: Björn Steiger Stiftung
         img_src: "assets/images/logo_bss.png"
-      - name: Solution Enabler
-        img_src: "assets/images/logo_solution_enabler.png"
+      - name: Land der Ideen
+        img_src: "assets/images/logo_land_der_ideen.png"
       - name: HZI
         img_src: "assets/images/logo_hzi_de.svg"
   - title: Group 2
     items:
+      - name: Vitagroup
+        img_src: "assets/images/logo_vitagroup.svg"
+      - name: Solution Enabler
+        img_src: "assets/images/logo_solution_enabler.png"
       - name: Project Together
         img_src: "assets/images/logo_project_together.png"
-      - name: Land der Ideen
-        img_src: "assets/images/logo_land_der_ideen.png"
+
 
 portfolio_cards:
   - title: Was IMIS bietet
