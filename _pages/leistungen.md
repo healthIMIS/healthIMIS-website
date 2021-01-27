@@ -1,6 +1,6 @@
 ---
-title: Portfolio
+title: Leistungen
 permalink: "/leistungen/"
 ---
 
-Hier kommt das Portfolio hin.
+Hier beschreiben wir unsere Leistungen.

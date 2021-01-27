@@ -45,9 +45,9 @@
                     <div class="col-md-4 col-sm-12 text-lg-left pt-3">
                         <div class="row">
                             <div class="col">
-                                <p>Portfolio</p>
+                                <p>Leistungen</p>
                                 <ul class="justify-content-lg-end justify-content-center">
-                                    {% for item in site.data.footer.portfolio %}
+                                    {% for item in site.data.footer.services %}
                                     <li class="nav-item"><a href="{{ item.link | relative_url }}">{{ item.name }}</a>
                                     </li>
                                     {% endfor %}
