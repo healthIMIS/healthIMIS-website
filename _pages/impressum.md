@@ -2,8 +2,6 @@
 title: Impressum
 permalink: "/impressum/"
 ---
-# Impressum
-
 ## Anschrift
 IMIS Infektionsfallübermittlung GbR   
 Tüleck 1   

@@ -2,8 +2,6 @@
 title: Datenschutz
 permalink: "/datenschutz/"
 ---
-# Datenschutz
-
 ## Allgemeine Information zur Erhebung personenbezogener Daten
 Im Folgenden informieren wir Sie über die Erhebung personenbezogener Daten bei der Nutzung unserer Webseiten. 
 Diese Datenschutzerklärung beruht auf den Begrifflichkeiten, die durch den Europäischen Richtlinien- und 
