@@ -1,11 +1,11 @@
 - name: Achim Löbke
   img_src: "/assets/images/profil_achim_loebke.jpg"
-  position: Geschäftführer
+  position: Geschäftsführer
   email: email@email.de
   tel: "0123/456789"
 
 - name: Andrey Eganov
   img_src: "/assets/images/profil_andrey_eganov.png"
-  position: Geschäftführer
+  position: Geschäftsführer
   email: email@email.de
   tel: "0123/456789"

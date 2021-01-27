@@ -8,16 +8,16 @@
         <div class="col">
             <div class="container carousel-inner no-padding">
                 {% for group in site.data.index.references %}
-                <div class="carousel-item{% if group == site.data.index.references.first %} active{% endif %}">
+                <div class="carousel-item{% if group == site.data.index.references.first %} active{% endif %} h-100">
                     {% if group.items.size <> 3 %}
                         {% assign help_col_width = 4 | divided_by: group.items.size %}
                     {% else %}
                         {% assign help_col_width = 0 %}
                     {% endif %}
-                    <div class="row align-items-center mx-4">
+                    <div class="row align-items-center mx-4 h-100">
                         <div class="col-md-{{ help_col_width }}"></div>
                         {% for item in group.items %}
-                        <div class="col-md-4 mt-4{% if item == group.items.first %} col-md-offset-{{ help_col_width }}{% endif %}">
+                        <div class="col-md-4 {% if item == group.items.first %} col-md-offset-{{ help_col_width }}{% endif %}">
                             <img src="{{ item.img_src }}">
                         </div>
                         {% endfor %}
