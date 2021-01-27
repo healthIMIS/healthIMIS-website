@@ -143,6 +143,34 @@ body .no-padding{
   padding-right: 0;
 }
 
+.carousel-inner {
+  height: 440px;
+}
+
+@media (min-width: 576px) {
+  .carousel-inner {
+    height: 440px;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-inner {
+    height: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+    .carousel-inner {
+      height: 123px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-inner {
+      height: 150px;
+    }
+}
+
 /* faq */
 
 .card {
