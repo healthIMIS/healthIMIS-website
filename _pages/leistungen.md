@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-permalink: "/portfolio/"
+permalink: "/leistungen/"
 ---
 
 Hier kommt das Portfolio hin.

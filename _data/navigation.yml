@@ -6,8 +6,8 @@ sitemap:
   - name: Start
     link: /
     type: link
-  - name: Portfolio
-    link: /portfolio/
+  - name: Leistungen
+    link: /leistungen/
     type: link
   - name: Team
     link: /team/
