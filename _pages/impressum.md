@@ -3,7 +3,7 @@ title: Impressum
 permalink: "/impressum/"
 ---
 ## Anschrift
-IMIS Infektionsfallübermittlung GbR   
+**IMIS Infektionsfallübermittlung GbR**   
 Tüleck 1   
 48336 Sassenberg
 
