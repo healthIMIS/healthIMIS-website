@@ -3,18 +3,21 @@ references:
     items:
       - name: Björn Steiger Stiftung
         img_src: "assets/images/logo_bss.png"
-      - name: Solution Enabler
-        img_src: "assets/images/logo_solution_enabler.png"
+      - name: Land der Ideen
+        img_src: "assets/images/logo_land_der_ideen.png"
       - name: HZI
         img_src: "assets/images/logo_hzi_de.svg"
   - title: Group 2
     items:
+      - name: Vitagroup
+        img_src: "assets/images/logo_vitagroup.svg"
+      - name: Solution Enabler
+        img_src: "assets/images/logo_solution_enabler.png"
       - name: Project Together
         img_src: "assets/images/logo_project_together.png"
-      - name: Tech For Germany
-        img_src: "assets/images/logo_tech4germany.png"
 
-portfolio_cards:
+
+services_cards:
   - title: Was IMIS bietet
     img_src: "assets/images/foto_teamcall_2020_11.png"
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
@@ -29,11 +32,15 @@ portfolio_cards:
     date: 19.12.2020
 
 faq:
-  - question: Wer steht hinter IMIS?
-    answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
   - question: Warum braucht XXX IMIS?
     answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-  - question: Arbeitet IMIS mit anderen Hackerthon-Projekten zusammen?
+  - question: Wer steht hinter IMIS?
     answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
-  - question: Kann ich bei IMIS mitmachen?
+  - question: Was bedeutet Open Social Innovation?
+    answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  - question: Kann ich IMIS unterstützen?
+    answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  - question: Was bedeutet Open Source?
+    answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  - question: Was ist der Innovationsverbund Öffentliche Gesundheit?
     answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
