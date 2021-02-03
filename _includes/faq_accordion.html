@@ -1,4 +1,4 @@
-<section class="fdb-block pt-5 faq">
+<section class="faq py-5">
     <div class="container">
         <h2 align="center">Häufig gestellte Fragen</h2>
         <div class="row justify-items-center pt-2">
@@ -45,11 +45,15 @@
         function checkIcons() {
             $.each($(document).find('i'), function(){
                 if($( this ).closest(".card-header").attr('aria-expanded') === 'true'){
-								$(this).removeClass('bi-plus-circle-fill');
-								$(this).addClass('bi-dash-circle-fill');
+                    if ($(this).hasClass('bi-plus-circle-fill')){
+                        $(this).removeClass('bi-plus-circle-fill');
+                        $(this).addClass('bi-dash-circle-fill');
+                    }
                 }else{
-								$(this).removeClass('bi-dash-circle-fill');
-								$(this).addClass('bi-plus-circle-fill');
+                    if ($(this).hasClass('bi-dash-circle-fill')){
+                        $(this).removeClass('bi-dash-circle-fill');
+                        $(this).addClass('bi-plus-circle-fill');
+                    }
                 };
             });
         }

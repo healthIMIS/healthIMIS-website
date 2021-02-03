@@ -9,27 +9,27 @@
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3"
                     aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="bi bi-list"></i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav3">
                 <ul class="navbar-nav ml-auto text-right">
                     {% for item in site.data.navigation.sitemap %}
-                        {% if item.type == 'link' %}
-                        <li class="nav-item my-auto">
-                            <a class="nav-link{% if page.url == item.link %} active{% endif %} lead"
-                               href="{{ item.link | relative_url }}">
-                                {{ item.name }}
-                                {% if page.url == item.link %} <span class="sr-only">(current)</span>{% endif %}
-                            </a>
-                        </li>
-                        {% else if item.type == 'button' %}
-                        <li class="nav-item my-auto">
-                            <a class="btn btn-outline-success ml-md-3" href="{{ item.link | relative_url }}">
-                                {{ item.name }}
-                            </a>
-                        </li>
-                        {% endif %}
+                    {% if item.type == 'link' %}
+                    <li class="nav-item my-auto">
+                        <a class="nav-link{% if page.url == item.link %} active{% endif %} lead"
+                           href="{{ item.link | relative_url }}">
+                            {{ item.name }}
+                            {% if page.url == item.link %} <span class="sr-only">(current)</span>{% endif %}
+                        </a>
+                    </li>
+                    {% else if item.type == 'button' %}
+                    <li class="nav-item my-auto">
+                        <a class="btn btn-outline-success ml-md-3" href="{{ item.link | relative_url }}">
+                            {{ item.name }}
+                        </a>
+                    </li>
+                    {% endif %}
                     {% endfor %}
                 </ul>
             </div>
