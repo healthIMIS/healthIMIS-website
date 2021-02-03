@@ -1,0 +1,36 @@
+<div class="card post px-2 py-4 w-100">
+    <div class="row no-gutters w-100">
+        <div class="col-12 col-sm-8 col-lg-9 col-xl-8">
+            <div class="card-block px-3 h-100" style="position: relative">
+                <div class="row pb-4">
+                    <div class="col">
+                        <a href="{{ post.url | relative_url }}" class="stretched-link d-none d-sm-block">
+                            <h4 class="card-title">{{ post.title }}</h4>
+                        </a>
+                        <div class="d-sm-none">
+                            <a href="{{ post.url | relative_url }}" class="stretched-link">
+                                <h4 class="card-title">{{ post.title }}</h4>
+                                <img class="img-fluid float-right w-25 py-1 pl-3"
+                                     src="{{ post.img_src | relative_url }}"
+                                     alt="Card image">
+                            </a>
+                        </div>
+                        <p class="card-text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-4 col-lg-3 col-xl-4 d-none d-sm-block p-sm-0 pt-4 px-sm-2 mx-auto my-auto text-center">
+            <a href="{{ post.url | relative_url }}">
+                <img class="img-fluid w-md-75 w-xl-100" src="{{ post.img_src | relative_url }}" alt="Card image">
+            </a>
+        </div>
+    </div>
+    <div class="row" style="position: absolute;bottom: 15px; left: 25px;">
+        <div class="col">
+            <div class="light">
+                <i>{{ post.date | date_to_string }}</i>
+            </div>
+        </div>
+    </div>
+</div>
