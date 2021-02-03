@@ -1,0 +1,7 @@
+<div class="card service h-100">
+    <img class="card-img-top" src="{{ card.img_src | relative_url }}" alt="Card image">
+    <div class="card-body">
+        <h4 class="card-title">{{ card.title }}</h4>
+        <p class="card-text">{{ card.text | truncatewords: 40, " [...]" }}</p>
+    </div>
+</div>
