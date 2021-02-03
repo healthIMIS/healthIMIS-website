@@ -51,6 +51,15 @@ a:hover {
 	text-decoration: underline;
 }
 
+.card {
+  border-color: var(--color1);
+}
+
+.card-header {
+  background-color: var(--color2);
+  border-bottom-color: var(--color1);
+}
+
 
 /* icons */
 
@@ -163,7 +172,6 @@ body .no-padding{
 /* services */
 
 .services .service {
-	padding: 3.7rem 2.4rem;
 	overflow: hidden;
     color: var(--text-color1);
     background-color: var(--bg-color2);
@@ -188,15 +196,7 @@ body .no-padding{
 }
 
 /* faq */
-
-.card {
-  border-color: var(--color1);
-}
-
-.card-header {
-  background-color: var(--color2);
-  border-bottom-color: var(--color1);
-}
+/* -> see general .cards
 
 /* contact-bar */
 
