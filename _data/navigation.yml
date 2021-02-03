@@ -12,6 +12,9 @@ sitemap:
   - name: Team
     link: /team/
     type: link
+  - name: News
+    link: /news/
+    type: link
   - name: Kontakt
     link: /kontakt/
     type: button
