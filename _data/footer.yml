@@ -1,14 +1,23 @@
-links:
+contact:
+  title: IMIS Infektionsmanagement
+  tel: 0123/456789
+  email: test@test.de
+  copyright: © 2021 IMIS
+
+nav:
   - name: Kontakt
     link: /kontakt/
   - name: Impressum
     link: /impressum/
   - name: Datenschutz
     link: /datenschutz/
+
+service:
+  title:  Leistungen
 services:
-  - name: Lorem Ipsum
-    link:
-  - name: Lorem Ipsum
-    link:
-  - name: Lorem Ipsum
-    link:
+  - name: Leistung 1
+    link: /leistungen/
+  - name: Leistung 2
+    link: /leistungen/
+  - name: Leistung 3
+    link: /leistungen/

@@ -1,63 +1,26 @@
 <footer class="footer">
-    <div class="container">
-        <div class="row pt-2 pb-5">
-            <div class="col-3">
-            </div>
-            <div class="col-6 col-md-12">
-                <div class="row align-items-top text-left pt-2">
-                    <div class="col-md-4 col-sm-12 text-lg-left pt-3">
-                        <div class="row pb-2">
-                            <div class="col">
-                                <p>IMIS Infektionsmanagement</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                Telefon: <a href="tel:0123/456789">0123/456789</a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                Email: <a href="mailto:test@test.de">test@test.de</a>
-                            </div>
-                        </div>
-                        <div class="row px-2">
-                            <div class="col">
-                                © 2021 IMIS
-                            </div>
-                        </div>
+    <div class="container-fluid">
+        <div class="row pb-4 justify-content-center align-items-center">
+            <div class="col-auto col-md-11">
+                <div class="row d-flex flex-column flex-md-row justify-content-between justify-content-lg-around">
+                    <div class="col-auto col-md-3 col-lg-auto pt-5 d-flex flex-column">
+                        <p class="lead mb-auto pb-4">{{ site.data.footer.contact.title }}</p>
+                        <p>Telefon: <a href="tel:{{ site.data.footer.contact.tel }}">{{ site.data.footer.contact.tel }}</a></p>
+                        <p>Email: <a href="mailto:{{ site.data.footer.contact.email }}">{{ site.data.footer.contact.email }}</a></p>
+                        {{ site.data.footer.contact.copyright }}
                     </div>
-
-                    <div class="col-md-4 col-sm-12 text-lg-left pt-3">
-                        <div class="row">
-                            <div class="col">
-                                <p>Lorem Ipsum</p>
-                                <ul class="justify-content-lg-start">
-                                    {% for item in site.data.footer.links %}
-                                    <li class="nav-item"><a href="{{ item.link | relative_url }}">{{ item.name }}</a>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="col-auto col-md-3 col-lg-3 pt-5 mt-auto">
+                        {% for item in site.data.footer.nav %}
+                        <a href="{{ item.link | relative_url}}">{{ item.name }}</a><br>
+                        {% endfor %}
                     </div>
-
-                    <div class="col-md-4 col-sm-12 text-lg-left pt-3">
-                        <div class="row">
-                            <div class="col">
-                                <p>Leistungen</p>
-                                <ul class="justify-content-lg-end justify-content-center">
-                                    {% for item in site.data.footer.services %}
-                                    <li class="nav-item"><a href="{{ item.link | relative_url }}">{{ item.name }}</a>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="col-auto col-md-3 col-lg-auto pt-5 d-flex flex-column">
+                        <p class="lead mb-auto pb-2">{{ site.data.footer.service.title }}</p>
+                        {% for item in site.data.footer.services %}
+                        <a href="{{ item.link | relative_url }}">{{ item.name }}</a><br>
+                        {% endfor %}
                     </div>
                 </div>
-            </div>
-            <div class="col-3">
             </div>
         </div>
     </div>
