@@ -1,7 +1,7 @@
 <div id="references-carousel" class="carousel slide" data-ride="carousel">
     <div class="row pt-4">
         <div class="col text-center">
-            <h2>Unsere Referenzen</h2>
+            <h1>Unsere Referenzen</h1>
         </div>
     </div>
     <div class="row pb-4">
@@ -17,8 +17,8 @@
                     <div class="row align-items-center mx-4 h-100">
                         <div class="col-md-{{ help_col_width }}"></div>
                         {% for item in group.items %}
-                        <div class="col-md-4 {% if item == group.items.first %} col-md-offset-{{ help_col_width }}{% endif %}">
-                            <img src="{{ item.img_src }}">
+                        <div class="col-md-4 text-center{% if item == group.items.first %} col-md-offset-{{ help_col_width }}{% endif %}">
+                            <img class="w-75" src="{{ item.img_src }}">
                         </div>
                         {% endfor %}
                         <div class="col-md-{{ help_col_width }}"></div>
@@ -41,9 +41,9 @@
     </div>
 
     <a class="carousel-control-prev" href="#references-carousel" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
+        <i class="bi bi-chevron-left" style="font-size: 2rem;"></i>
     </a>
     <a class="carousel-control-next" href="#references-carousel" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
+        <i class="bi bi-chevron-right" style="font-size: 2rem;"></i>
     </a>
 </div>
