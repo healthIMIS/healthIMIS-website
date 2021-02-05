@@ -1,13 +1,11 @@
 <section class="news py-5 w-100">
     <div class="container-fluid">
         <h1 align="center">Neuigkeiten</h1>
-        <div class="row py-md-5 px-md-5">
+        <div class="row py-md-5 px-3 px-md-5 mx-md-5">
             {% assign for_teaser = true %}
             {% for post in site.posts limit:2 %}
-            <div class="col-12 col-xl-6 px-0 px-md-3 px-lg-0 py-3">
-                <div class="row px-5 py-2 h-100">
+            <div class="col-12 col-xl-6 py-3">
                 {% include cards/news_card.html %}
-                </div>
             </div>
             {% endfor %}
         </div>

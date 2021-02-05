@@ -1,7 +1,7 @@
 <header class="navigation" data-block-type="headers" data-id="1">
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-md py-3">
-            <div class="col">
+        <nav class="navbar navbar-expand-md py-3 px-0 px-md-4 px-lg-0 px-xl-5 mx-xl-5">
+            <div class="col px-md-0 px-lg-3">
                 <a class="navbar-brand" href="{{ site.data.navigation.logo.location | relative_url }}">
                     <img class="w-25" src="{{ site.data.navigation.logo.img_src | relative_url }}" alt="image">
                 </a>
@@ -12,7 +12,7 @@
                 <i class="bi bi-list"></i>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav3">
+            <div class="collapse navbar-collapse pr-0 pr-lg-3" id="navbarNav3">
                 <ul class="navbar-nav ml-auto text-right">
                     {% for item in site.data.navigation.sitemap %}
                     {% if item.type == 'link' %}

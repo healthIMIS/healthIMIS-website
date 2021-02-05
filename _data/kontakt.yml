@@ -1,11 +1,13 @@
 - name: Achim Löbke
   img_src: "/assets/images/profil_achim_loebke.jpg"
   position: Geschäftsführer
-  email: email@email.de
-  tel: "0123/456789"
+  # use http://www.wbwip.com/wbw/emailencoder.html for obfuscating your email and tel
+  email: "&#116;&#101;&#115;&#116;&#064;&#116;&#101;&#115;&#116;&#046;&#100;&#101;"
+  tel: "&#048;&#049;&#050;&#051;/&#052;&#053;&#054;&#055;&#056;&#057;"
 
 - name: Andrey Eganov
   img_src: "/assets/images/profil_andrey_eganov.png"
   position: Geschäftsführer
-  email: email@email.de
-  tel: "0123/456789"
+  # use http://www.wbwip.com/wbw/emailencoder.html for obfuscating your email and tel
+  email: "&#116;&#101;&#115;&#116;&#064;&#116;&#101;&#115;&#116;&#046;&#100;&#101;"
+  tel: "&#048;&#049;&#050;&#051;/&#052;&#053;&#054;&#055;&#056;&#057;"
