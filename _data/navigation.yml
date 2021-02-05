@@ -12,7 +12,7 @@ sitemap:
   - name: Team
     link: /team/
     type: link
-  - name: News
+  - name: Neuigkeiten
     link: /news/
     type: link
   - name: Kontakt

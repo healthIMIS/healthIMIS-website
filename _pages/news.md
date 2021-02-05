@@ -1,5 +1,5 @@
 ---
-title: News
+title: Neuigkeiten
 layout: news
 permalink: "/news/"
 ---

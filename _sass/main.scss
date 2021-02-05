@@ -52,6 +52,17 @@ a:hover {
 	text-decoration: underline;
 }
 
+.display-3 {
+		font-size: 3.5em;
+	}
+
+@media (min-width: 576px) {
+	.display-3 {
+		font-size: 4.5em;
+	}
+}
+
+
 .card {
   border-color: var(--color1);
 }
