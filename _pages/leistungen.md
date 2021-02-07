@@ -1,5 +1,5 @@
 ---
-title: Leistungen
+title: Unsere Leistungen
 permalink: "/leistungen/"
 ---
 
