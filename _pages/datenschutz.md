@@ -54,7 +54,7 @@ Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehö
 Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.
 
 ### Externes Hosting und Content Delivery Networks (CDN)
-Diese Website wird beim externen Dienstleister GitHub gehostet (Hoster). Diese Dienstleidtung wird bereitgestellt von 
+Diese Website wird beim externen Dienstleister GitHub gehostet (Hoster). Diese Dienstleistung wird bereitgestellt von 
 Github Inc., 88 Colin P Kelly Jr. Street, San Francisco, CA 94107, USA. Die personenbezogenen Daten, die auf dieser 
 Website erfasst werden, können auf den Servern des Hosters gespeichert werden. 
 Hierbei kann es sich v.a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten,
