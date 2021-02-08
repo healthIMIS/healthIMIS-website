@@ -58,9 +58,9 @@ umgehend entfernen.
 #### Urheberrecht
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
 Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
-Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
-Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. 
+Diese erklären wir im Rahmen der Lizenz unter [https://github.com/healthIMIS/healthIMIS-website/blob/main/LICENSE](https://github.com/healthIMIS/healthIMIS-website/blob/main/LICENSE). 
 Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter
 beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
-Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei
+Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis über [&#105;&#109;&#105;&#115;&#045;&#116;&#101;&#097;&#109;&#064;&#103;&#109;&#120;&#046;&#100;&#101;](mailto:&#105;&#109;&#105;&#115;&#045;&#116;&#101;&#097;&#109;&#064;&#103;&#109;&#120;&#046;&#100;&#101;). Bei
 Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
