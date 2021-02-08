@@ -54,10 +54,12 @@ Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehö
 Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.
 
 ### Externes Hosting und Content Delivery Networks (CDN)
-Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die
-auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v.
-a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten,
-Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln.
+Diese Website wird beim externen Dienstleister GitHub gehostet (Hoster). Diese Dienstleidtung wird bereitgestellt von 
+Github Inc., 88 Colin P Kelly Jr. Street, San Francisco, CA 94107, USA. Die personenbezogenen Daten, die auf dieser 
+Website erfasst werden, können auf den Servern des Hosters gespeichert werden. 
+Hierbei kann es sich v.a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten,
+Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln. 
+Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von GitHub unter: [https://help.github.com/articles/github-privacy-policy](https://help.github.com/articles/github-privacy-policy).
 
 Der Einsatz des Hosters erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und
 bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten
@@ -65,8 +67,6 @@ Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art
 
 Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten
 erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
-
-Wir setzen folgenden Hoster ein: **TBD**
 
 ## Allgemeine Hinweise und Pflichtinformationen
 ### Datenschutz
