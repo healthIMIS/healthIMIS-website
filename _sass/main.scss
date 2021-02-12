@@ -80,6 +80,39 @@ a:hover {
   border-bottom-color: var(--color1);
 }
 
+.custom-container {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media (min-width: 576px) {
+  .custom-container {
+      padding-right: 30px;
+      padding-left: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-container {
+      padding-right: 60px;
+      padding-left: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-container {
+      padding-right: 60px;
+      padding-left: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-container {
+      padding-right: 100px;
+      padding-left: 100px;
+  }
+}
+
 
 /* icons */
 

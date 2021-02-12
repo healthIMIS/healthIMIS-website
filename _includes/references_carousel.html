@@ -1,4 +1,4 @@
-<div id="references-carousel" class="carousel slide" data-ride="carousel">
+<div id="references-carousel" class="carousel slide custom-container" data-ride="carousel">
     <div class="row pt-4">
         <div class="col text-center">
             <h1>Unsere Referenzen</h1>
@@ -6,7 +6,7 @@
     </div>
     <div class="row pb-4">
         <div class="col">
-            <div class="container carousel-inner no-padding">
+            <div class="carousel-inner no-padding">
                 {% for group in site.data.index.references %}
                 <div class="carousel-item{% if group == site.data.index.references.first %} active{% endif %} h-100">
                     {% if group.items.size <> 3 %}
