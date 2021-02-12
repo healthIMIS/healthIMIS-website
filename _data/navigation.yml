@@ -6,9 +6,9 @@ sitemap:
   - name: Start
     link: /
     type: link
-  - name: Leistungen
-    link: /leistungen/
-    type: link
+  #- name: Leistungen
+  #  link: /leistungen/
+  #  type: link
   - name: Team
     link: /team/
     type: link
