@@ -16,11 +16,11 @@ nav:
     link: /datenschutz/
 
 service:
-  title:  Leistungen
+  title:  Footer
 services:
-  - name: Leistung 1
-    link: /leistungen/
-  - name: Leistung 2
-    link: /leistungen/
-  - name: Leistung 3
-    link: /leistungen/
+  - name: Footer Link 1
+    link: /
+  - name: Footer Link 2
+    link: /
+  - name: Footer Link 3
+    link: /
