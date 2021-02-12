@@ -1,10 +1,8 @@
-<footer class="footer">
-    <div class="container-fluid">
-        <div class="row pb-4 justify-content-center align-items-center px-xl-5 mx-xl-5"
-        ">
-        <div class="col-auto col-md-11 col-lg-12 px-lg-4 px-xl-3">
-            <div class="row d-flex flex-column flex-md-row justify-content-between justify-content-lg-between px-lg-1">
-                <div class="col-auto col-md-3 col-lg-auto pt-5 d-flex flex-column px-xl-2">
+<footer class="footer custom-container">
+    <div class="row pb-4 justify-content-center align-items-center">
+        <div class="col-auto col-md-12">
+            <div class="row d-flex flex-column flex-md-row justify-content-between justify-content-lg-between">
+                <div class="col-auto col-md-3 col-lg-auto pt-5 d-flex flex-column">
                     <p class="lead mb-auto pb-4">{{ site.data.footer.contact.title }}</p>
                     <p style="white-space: nowrap">
                         Telefon:
@@ -31,7 +29,7 @@
                     <a href="{{ item.link | relative_url}}">{{ item.name }}</a><br>
                     {% endfor %}
                 </div>
-                <div class="col-auto col-md-auto col-lg-auto pt-5 d-flex flex-column px-xl-2">
+                <div class="col-auto col-md-auto col-lg-auto pt-5 d-flex flex-column">
                     <p class="lead mb-auto pb-2">{{ site.data.footer.service.title }}</p>
                     {% for item in site.data.footer.services %}
                     <a href="{{ item.link | relative_url }}">{{ item.name }}</a><br>
@@ -39,6 +37,5 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </footer>

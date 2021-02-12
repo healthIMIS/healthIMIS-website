@@ -1,7 +1,6 @@
-<section class="news py-5 w-100">
-    <div class="container-fluid">
+<section class="news py-5 custom-container">
         <h1 align="center">Neuigkeiten</h1>
-        <div class="row py-md-5 px-3 px-md-5 mx-md-5">
+        <div class="row py-md-5">
             {% assign for_teaser = true %}
             {% for post in site.posts limit:2 %}
             <div class="col-12 col-xl-6 py-3 position-relative">
@@ -11,5 +10,4 @@
             </div>
             {% endfor %}
         </div>
-    </div>
 </section>

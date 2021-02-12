@@ -53,11 +53,11 @@ a:hover {
 }
 
 .display-3 {
-	font-size: 3em;
+    font-size: 3em;
 }
 
 .display-4 {
-	font-size: 3em;
+    font-size: 3em;
 }
 
 @media (min-width: 576px) {
@@ -78,6 +78,39 @@ a:hover {
 .card-header {
   background-color: var(--color2);
   border-bottom-color: var(--color1);
+}
+
+.custom-container {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media (min-width: 576px) {
+  .custom-container {
+      padding-right: 30px;
+      padding-left: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-container {
+      padding-right: 60px;
+      padding-left: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-container {
+      padding-right: 60px;
+      padding-left: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-container {
+      padding-right: 100px;
+      padding-left: 100px;
+  }
 }
 
 
@@ -134,8 +167,9 @@ a:hover {
 
 /* navbar */
 
-.navigation {
+.navbar {
  background-color: var(--bg-color2);
+ border-bottom: 3px solid var(--color1);
 }
 
 .navigation .bi {
