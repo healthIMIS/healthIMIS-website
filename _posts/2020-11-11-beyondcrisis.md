@@ -1,5 +1,5 @@
 ---
-title: Prämiert von der Initiative #beyondcrisis
+title: Prämiert von der Initiative beyondcrisis
 layout: post
 img_src: "assets/images/logo_land_der_ideen.png"
 ---
