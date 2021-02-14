@@ -1,7 +1,10 @@
 eyecatcher:
   title1: Nachhaltige Digitalisierung
   title2: der öffentlichen Gesundheit
-  img_src: "assets/images/foto_teamcall_2020_11.png"
+  #  img_src: "assets/images/foto_teamcall_2020_11.png"
+  img_src: "assets/images/construction/under_construction_pana.svg"
+  construction1: Wir bauen diese Seite gerade auf.
+  construction2: Manche Unterseiten werden erst in ein paar Tagen sichtbar.
 
 references:
   - title: Group 1
