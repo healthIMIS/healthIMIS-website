@@ -1,4 +1,5 @@
 ---
+published: false
 title: Created dummy post
 layout: post
 img_src: "assets/images/logo_imis.png"
