@@ -1,8 +1,8 @@
 contact:
   title: IMIS Infektionsmanagement
   # use http://www.wbwip.com/wbw/emailencoder.html for obfuscating your email and tel
-  email: "&#116;&#101;&#115;&#116;&#064;&#116;&#101;&#115;&#116;&#046;&#100;&#101;"
-  tel: "&#048;&#049;&#050;&#051;/&#052;&#053;&#054;&#055;&#056;&#057;"
+  email: "&#115;&#101;&#114;&#118;&#105;&#099;&#101;&#064;&#104;&#101;&#097;&#108;&#116;&#104;&#105;&#109;&#105;&#115;&#046;&#099;&#111;&#109;"
+  tel: "+&#052;&#057;&#032;&#054;&#049;&#053;&#049;&#032;/&#032;&#056;&#048;&#032;&#053;&#054;&#032;&#053;&#057;&#032;&#048;"
   twitter: "https://twitter.com/imis_team"
   linkedin: "https://www.linkedin.com/company/the-imis"
   copyright: © 2021 IMIS
@@ -16,11 +16,11 @@ nav:
     link: /datenschutz/
 
 service:
-  title:  Footer
+  title:  Dienstleistungen
 services:
-  - name: Footer Link 1
+  - name: Link 1
     link: /
-  - name: Footer Link 2
+  - name: Link 2
     link: /
-  - name: Footer Link 3
+  - name: Link 3
     link: /
