@@ -8,6 +8,7 @@
     --bg-color2: white;
     --text-color1: #444444;
     --text-color2: #777777;
+    --link-color: #2279db;
 }
 
 
@@ -44,10 +45,19 @@ p {
 }
 
 a {
+	color: var(--link-color);
+}
+
+.nolink{
 	color: var(--text-color1);
 }
 
 a:hover {
+	color: var(--link-color);
+	text-decoration: underline;
+}
+
+.nolink:hover{
 	color: var(--text-color2);
 	text-decoration: underline;
 }
