@@ -1,6 +1,16 @@
 ---
-layout: default
+layout: base
 ---
-<p>{{ page.date | date_to_string }}</p>
-
-{{ content }}
+<div class="custom-container py-5 w-lg-75 mx-auto">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center">{{ page.title}}</h1>
+        </div>
+    </div>
+    <div class="row py-4">
+        <div class="col">
+            <p>{{ page.date | date_to_string }}</p>
+            {{ content }}
+        </div>
+    </div>
+</div>
