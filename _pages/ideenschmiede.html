@@ -5,43 +5,38 @@ layout: base
 img_src: "assets/images/haus.gif"
 ---
 <section class="ideenschmiede">
-    <div class="custom-container py-5">
-        <div class="row pb-3">
-            <div class="col text-center">
-                <h1 class="display-3">Wir suchen dich!</h1>
-                <h1 class="display-4">Entwirf mit uns die Kampagne für unsere Ideenschmiede!</h1>
+    <div class="custom-container py-5 mx-auto">
+        <div class="row mx-xl-5">
+            <div class="col text-center offset-lg-1 col-lg-10">
+                <h1 class="display-4">Wir suchen dich!</h1>
+                <h2>Entwirf mit uns die Kampagne für unsere Ideenschmiede!</h2>
             </div>
         </div>
-        <div class="row py-4">
-            <div class="col">
-                <h4>
-                    Unsere Ideenschmiede startet ihr erstes Projekt: eine Kampagne für unsere Ideenschmiede!
-                </h4>
-                {% capture p1 %}{% include_relative ideenschmiede/ideenschmiede-p1.md %}{% endcapture %}
-                {% capture p2 %}{% include_relative ideenschmiede/ideenschmiede-p2.md %}{% endcapture %}
-                {% capture p3 %}{% include_relative ideenschmiede/ideenschmiede-p3.md %}{% endcapture %}
-                <div class="row my-5">
+        <div class="row mt-4  mx-xl-5">
+            <div class="col offset-lg-1 col-lg-10">
+                {% capture p1 %}{% include_relative ideenschmiede.md %}{% endcapture %}
+                <div class="row mt-3">
                     <div class="col-12 col-md-8">
                         {{ p1 | markdownify }}
                     </div>
-                    <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
-                        <img class="img-fluid float-right w-50 w-md-100" src="{{ page.img_src | relative_url }}">
-                    </div>
-                </div>
-                <div class="row my-5">
-                    <div class="col-12 col-md-8 offset-md-4">
-                        {{ p2 | markdownify }}
-                    </div>
-                </div>
-                <div class="row my-5">
-                    <div class="col-12 col-md-8">
-                        {{ p3 | markdownify }}
+                    <div class="col-12 col-md-4 d-flex align-items-center justify-content-center flex-column">
+                        <div class="row no-gutters">
+                            <div class="col no-gutters text-center">
+                                <img class="img-fluid w-75 w-md-100 my-4"
+                                     src="{{ page.img_src | relative_url }}">
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col no-gutters">
+                                <a class="nolink" href="https://storyset.com/coronavirus">Illustration by Freepik Storyset</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
+        <div class="row offset-lg-1 col-lg-10 offset-xl-2 col-xl-8 mx-auto">
+            <div class="col px-0">
                 {% include ideenschmiede_faq_accordion.html %}
             </div>
         </div>
