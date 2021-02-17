@@ -359,11 +359,38 @@ body .ideenschmiede {
 }
 
 .ideenschmiede p{
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 
+.ideenschmiede h1{
+    font-weight: 300;
+}
+.ideenschmiede h2{
+    font-weight: 300;
+}
 
+.ideenschmiede .card {
+  color: var(--text-color1);
+  background-color: var(--color1);
+  border-color: var(--text-color1);
+  border: 1px solid var(--text-color1);
+}
+
+.ideenschmiede .card-header {
+  color: var(--text-color1);
+  background-color: var(--color1);
+  border-bottom-color: var(--text-color1);
+}
+
+.ideenschmiede .border-bottom {
+  border-bottom-color: var(--text-color1) !important;
+}
+
+.ideenschmiede .bi {
+  color: var(--text-color1);
+  background-color: var(--color1);
+}
 
 /* add unsupported bootstrap w-md-50 style classes
 
