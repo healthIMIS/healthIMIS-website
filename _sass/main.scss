@@ -63,14 +63,24 @@ a:hover {
 }
 
 .display-3 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .display-4 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 @media (min-width: 576px) {
+	.display-3 {
+		font-size: 3em;
+	}
+
+	.display-4 {
+    	font-size: 3em;
+    }
+}
+
+@media (min-width: 768px) {
 	.display-3 {
 		font-size: 4.5em;
 	}
@@ -303,6 +313,13 @@ body .no-padding{
   box-shadow: 0 .3000rem .850rem 0 rgba(130, 130, 130, 0.2);
 }
 
+@media (min-width: 576px) {
+    .post-img {
+      min-width: 50%;
+      max-width: 70%;
+    }
+}
+
 /* faq */
 /* -> see general .cards
 
@@ -333,6 +350,17 @@ body .no-padding{
 
 .footer{
   background-color: var(--bg-color2);
+}
+
+/* ideenschmiede */
+
+body .ideenschmiede {
+  background-color: var(--color1);
+}
+
+.ideenschmiede p{
+    font-size: 1.25rem;
+    font-weight: 300;
 }
 
 
