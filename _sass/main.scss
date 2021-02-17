@@ -313,6 +313,13 @@ body .no-padding{
   box-shadow: 0 .3000rem .850rem 0 rgba(130, 130, 130, 0.2);
 }
 
+@media (min-width: 576px) {
+    .post-img {
+      min-width: 50%;
+      max-width: 70%;
+    }
+}
+
 /* faq */
 /* -> see general .cards
 
