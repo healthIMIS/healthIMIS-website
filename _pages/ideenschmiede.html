@@ -1,0 +1,49 @@
+---
+title: Ideenschmiede
+permalink: "/ideenschmiede/"
+layout: base
+img_src: "assets/images/haus.gif"
+---
+<section class="ideenschmiede">
+    <div class="custom-container py-5">
+        <div class="row pb-3">
+            <div class="col text-center">
+                <h1 class="display-3">Wir suchen dich!</h1>
+                <h1 class="display-4">Entwirf mit uns die Kampagne für unsere Ideenschmiede!</h1>
+            </div>
+        </div>
+        <div class="row py-4">
+            <div class="col">
+                <h4>
+                    Unsere Ideenschmiede startet ihr erstes Projekt: eine Kampagne für unsere Ideenschmiede!
+                </h4>
+                {% capture p1 %}{% include_relative ideenschmiede/ideenschmiede-p1.md %}{% endcapture %}
+                {% capture p2 %}{% include_relative ideenschmiede/ideenschmiede-p2.md %}{% endcapture %}
+                {% capture p3 %}{% include_relative ideenschmiede/ideenschmiede-p3.md %}{% endcapture %}
+                <div class="row my-5">
+                    <div class="col-12 col-md-8">
+                        {{ p1 | markdownify }}
+                    </div>
+                    <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                        <img class="img-fluid float-right w-50 w-md-100" src="{{ page.img_src | relative_url }}">
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-12 col-md-8 offset-md-4">
+                        {{ p2 | markdownify }}
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-12 col-md-8">
+                        {{ p3 | markdownify }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                {% include ideenschmiede_faq_accordion.html %}
+            </div>
+        </div>
+    </div>
+</section>

@@ -352,6 +352,17 @@ body .no-padding{
   background-color: var(--bg-color2);
 }
 
+/* ideenschmiede */
+
+body .ideenschmiede {
+  background-color: var(--color1);
+}
+
+.ideenschmiede p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
 
 
 /* add unsupported bootstrap w-md-50 style classes

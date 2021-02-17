@@ -15,6 +15,9 @@ sitemap:
   - name: Neuigkeiten
     link: /news/
     type: link
+  #- name: Ideenschmiede
+  #  link: /ideenschmiede/
+  #  type: link
   - name: Kontakt
     link: /kontakt/
     type: button
