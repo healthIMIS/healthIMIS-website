@@ -26,7 +26,7 @@
         </div>
         <div class="col-12 col-sm-4 col-lg-3 col-xl-4 d-none d-sm-block p-sm-0 pt-4 px-sm-2 mx-auto my-auto text-center">
             <a href="{{ post.url | relative_url }}" class="stretched-link">
-                <img class="img-fluid{% if for_teaser %} w-md-75 w-xl-100{% endif %}" src="{{ post.img_src | relative_url }}" alt="Card image">
+                <img class="img-fluid{% if for_teaser %} w-md-75 w-xl-100{% endif %}" src="{{ post.thumb_img_src | default: post.img_src | relative_url }}" alt="Card image">
             </a>
         </div>
     </div>
