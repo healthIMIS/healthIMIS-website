@@ -4,8 +4,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
 
-    <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/favicon-256x256.png' | relative_url }}">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
           integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -22,6 +20,16 @@
 
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url }}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon/favicon-16x16.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/assets/images/favicon/site.webmanifest' | relative_url }}">
+    <link rel="mask-icon" color="#00a354"  href="{{ '/assets/images/favicon/safari-pinned-tab.svg'| relative_url }}">
+    <link rel="shortcut icon" href="{{ '/assets/images/favicon/favicon.ico' | relative_url }}">
+    <meta name="msapplication-TileColor" content="#00a300">
+    <meta name="msapplication-config" content="{{ '/assets/images/favicon/browserconfig.xml' | relative_url }}">
+    <meta name="theme-color" content="#ffffff">
 
     {% feed_meta %}
     {% seo %}
