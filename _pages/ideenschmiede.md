@@ -5,5 +5,5 @@ Bei IMIS verstehen wir uns als Ideenschmiede, die hilft für gute Ideen Unterst�
 
 Um unseren Aufruf zu bewerben brauchen wir eine Kampagne!  
 Und da kommst du ins Spiel:  
-**Hast du Lust vom 22.02. bis zum 26.02. für und mit uns das Kampagnencover zu gestalten?**  
+**Hast du Lust vom 23.02. bis zum 28.02. für und mit uns das Kampagnencover zu gestalten?**  
 Dann melde dich bei uns spätestens bis zum 21.02. unter [ideenschmiede@healthimis.de](mailto:&#105;&#100;&#101;&#101;&#110;&#115;&#099;&#104;&#109;&#105;&#101;&#100;&#101;&#064;&#104;&#101;&#097;&#108;&#116;&#104;&#105;&#109;&#105;&#115;&#046;&#100;&#101;).
