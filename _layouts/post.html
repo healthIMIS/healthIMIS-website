@@ -1,7 +1,16 @@
 ---
 layout: base
 ---
-<div class="custom-container py-5 w-lg-75 mx-auto">
+<div class="custom-container pb-5 pt-4 w-lg-75 mx-auto">
+    <div class="row justify-content-start">
+        <div class="col-auto d-flex flex-column">
+            <p>
+                <a href="/news/" style="text-decoration:none;">
+                    <i class="bi bi-arrow-left-circle circle-icon c1-circle-icon d-inline-block"></i>
+                </a>
+            </p>
+        </div>
+    </div>
     <div class="row justify-content-center pb-4">
         <img class="img-fluid px-3 post-img" src="{{ page.img_src | relative_url }}"/>
     </div>
@@ -14,6 +23,7 @@ layout: base
         <div class="col">
             <p>{{ page.date | date_to_string }}</p>
             {{ content }}
+            <a href="/news/" class="btn btn-outline-success float-right" role="button" aria-pressed="true">Zurück zu Neuigkeiten</a>
         </div>
     </div>
 </div>
