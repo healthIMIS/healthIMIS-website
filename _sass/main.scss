@@ -151,6 +151,11 @@ a:hover {
   color: white;
 }
 
+.bi-github {
+  background: #24292e;
+  color: white;
+}
+
 .circle-icon {
   position: relative;
   width: 18%;
@@ -361,6 +366,9 @@ body .ideenschmiede {
 .ideenschmiede p{
     font-size: 1rem;
     font-weight: 300;
+}
+.ideenschmiede strong{
+    font-weight: 500;
 }
 
 .ideenschmiede h1{
