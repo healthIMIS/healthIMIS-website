@@ -19,7 +19,7 @@
                  aria-labelledby="heading{{ forloop.index }}"
                  data-parent="#faqaccordion">
                 <div class="card-body">
-                    {{ question.answer }}
+                    {{ question.answer | newline_to_br }}
                 </div>
             </div>
 
