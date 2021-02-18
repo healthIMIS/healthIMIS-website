@@ -174,12 +174,12 @@ a:hover {
 }
 
 .bi-x-circle {
-  background: white;
+  background: var(--bg-color1);
   color: var(--color1);
 }
 
 .bi-arrow-left-circle {
-  background: white;
+  background: var(--bg-color1);
   color: var(--color1);
 }
 
@@ -352,6 +352,10 @@ body .no-padding{
   overflow: hidden;
   border-radius: .27rem;
   box-shadow: 0 .3000rem .850rem 0 rgba(130, 130, 130, 0.2);
+}
+
+.post-img {
+    max-height: 150px;
 }
 
 @media (min-width: 576px) {
