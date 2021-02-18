@@ -1,21 +1,21 @@
 <div class="row py-3">
     <div class="col">
         <div class="card">
-            <button id="heading{{ forloop.index }}" class="card-header collapsed card-link btn shadow-none text-left"
+            <button id="heading{{ forloop.index }}" class="card-header {% if forloop.first == false %}collapsed {% endif %}card-link btn shadow-none text-left"
                     data-toggle="collapse" data-target="#collapse{{ forloop.index }}"
-                    aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+                    aria-expanded="{% if forloop.first == true %}true{% else %}false{% endif %}" aria-controls="collapse{{ forloop.index }}">
                 <div class="row text-wrap">
                     <div class="col">
                         <b class="lead">{{ question.question }}</b>
                     </div>
                     <div class="col-1 text-right mx-3 mx-lg-1">
-                        <i id="icon{{ forloop.index }}" class="bi bi-plus-circle-fill"></i>
+                        <i id="icon{{ forloop.index }}" class="bi {% if forloop.first == true %}bi-dash-circle-fill{% else %}bi-plus-circle-fill{% endif %}"></i>
                     </div>
                 </div>
 
             </button>
 
-            <div id="collapse{{ forloop.index }}" class="collapse"
+            <div id="collapse{{ forloop.index }}" class="collapse{% if forloop.first == true %} show{% endif %}"
                  aria-labelledby="heading{{ forloop.index }}"
                  data-parent="#faqaccordion">
                 <div class="card-body">
