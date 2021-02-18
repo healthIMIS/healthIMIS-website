@@ -26,7 +26,7 @@
                         {% if for_teaser %}
                             <p class="card-text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
                         {% else %}
-                            <p class="card-text mb-0">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+                            <p class="card-text mb-2">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
                             {% if post.excerpt != post.content %}
                             <a class="nolink" href="{{ post.url | relative_url }}"><i>> Mehr lesen...</i></a>
                             {% endif %}

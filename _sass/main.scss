@@ -356,6 +356,7 @@ body .no-padding{
 
 @media (min-width: 576px) {
     .post-img {
+      max-height: 300px;
       min-width: 50%;
       max-width: 70%;
     }
