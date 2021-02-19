@@ -1,6 +1,5 @@
 ---
 title: IMIS sucht dich!
-layout: post
 img_src: "assets/images/haus.gif"
 published: false
 ---

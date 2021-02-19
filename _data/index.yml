@@ -1,7 +1,6 @@
 eyecatcher:
   title1: Nachhaltige Digitalisierung
   title2: der öffentlichen Gesundheit
-  #  img_src: "assets/images/foto_teamcall_2020_11.png"
   img_src: "assets/images/construction/under_construction_pana.svg"
   construction1: Wir bauen diese Seite gerade auf.
   construction2: Manche Unterseiten werden erst in ein paar Tagen sichtbar.
@@ -10,19 +9,19 @@ references:
   - title: Group 1
     items:
       - name: Björn Steiger Stiftung
-        img_src: "assets/images/logo_bss.png"
+        img_src: "assets/images/logos/logo_bss.png"
       - name: HZI
-        img_src: "assets/images/logo_hzi_de.svg"
+        img_src: "assets/images/logos/logo_hzi_de.svg"
       - name: Vitagroup
-        img_src: "assets/images/logo_vitagroup.svg"
+        img_src: "assets/images/logos/logo_vitagroup.svg"
   - title: Group 2
     items:
       - name: Solution Enabler
-        img_src: "assets/images/logo_solution_enabler.png"
+        img_src: "assets/images/logos/logo_solution_enabler.png"
       - name: Land der Ideen
-        img_src: "assets/images/logo_land_der_ideen_2.png"
+        img_src: "assets/images/logos/logo_land_der_ideen_2.png"
       - name: Project Together
-        img_src: "assets/images/logo_project_together.png"
+        img_src: "assets/images/logos/logo_project_together.png"
 
 
 services_cards:

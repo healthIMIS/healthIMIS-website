@@ -1,8 +1,7 @@
 ---
 title: Im Interview mit BFS health finance
-layout: post
-img_src: "assets/images/bfs_interview_thumb.jpg"
-thumb_img_src: "assets/images/bfs-logo.png"
+img_src: "assets/images/posts/bfs_interview_thumb.jpg"
+thumb_img_src: "assets/images/logos/logo_bfs.png"
 ---
 
 Im Interview mit Jessica Hanneken von BFS sprechen Achim Löbke und David Baldsiefen über IMIS, unseren Werdegang und was unsere Arbeitsweise so besonders macht.

@@ -22,7 +22,7 @@
                 </div>
                 <div class="row pt-4">
                     <div class="col">
-                        <p>{{ post.date | date_to_string }}</p>
+                        <p>{{ post.date | date_to_string }}{% if post.author %} <i>~ von {{ post.author }}</i>{% endif %}</p>
                         {{ post.content }}
                     </div>
                 </div>

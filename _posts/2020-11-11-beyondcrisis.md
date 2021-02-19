@@ -1,8 +1,7 @@
 ---
 title: Prämiert von der Initiative beyondcrisis
-layout: post
-img_src: "assets/images/beyond_crisis.png"
-thumb_img_src: "assets/images/logo_land_der_ideen.png"
+img_src: "assets/images/posts/beyond_crisis.png"
+thumb_img_src: "assets/images/logos/logo_land_der_ideen.png"
 ---
 Im Rahmen der Initiative *#beyondcrisis- Zeit für neue Lösungen* wurde IMIS als eines von 5 aus über 200 Projekten prämiert. Dies hat die 8-köpfige Expertenjury unter dem Vorsitz von Thomas Heilmann, MdB im November bekanntgegeben. 
 
