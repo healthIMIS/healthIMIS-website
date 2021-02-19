@@ -1,7 +1,6 @@
 ---
 title: IMIS stellt SORMAS-Funktion für Quarantänebescheide vor
-layout: post
-img_src: "assets/images/quarantaene_bescheide.png"
+img_src: "assets/images/posts/quarantaene_bescheide.png"
 yt_video_id: "oi6UI7clU5g"
 ---
 

@@ -1,23 +1,23 @@
 - name: Maria Musterfrau
-  img_src: "assets/images/dummy_person.png"
+  img_src: "assets/images/people/dummy_person.png"
   position: Geschäftsführerin
   since: 2013
   bio: der Kaffee, die Konsequenz, das Kapital
 
 - name: Martin Mustermann
-  img_src: "assets/images/dummy_person.png"
+  img_src: "assets/images/people/dummy_person.png"
   position: Entwickler
   since: 2016
   bio: mag Katzen, fährt Ski und lebt in einem Hausboot
 
 - name: Maxi Mustermensch
-  img_src: "assets/images/dummy_person.png"
+  img_src: "assets/images/people/dummy_person.png"
   position: Designer*in
   since: 2017
   bio: Gesundheitswesen - Metal Core - Adorno-Lesekreis
   
 - name: Clara Müller
-  img_src: "assets/images/dummy_person.png"
+  img_src: "assets/images/people/dummy_person.png"
   position: Designer*in
   since: 2017
   bio: Gesundheitswesen - Metal Core - Adorno-Lesekreis
